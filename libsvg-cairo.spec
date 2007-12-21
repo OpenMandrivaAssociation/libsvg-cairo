@@ -11,6 +11,7 @@ License:          BSD
 Group:            System/Libraries
 Source:           %{name}-%{version}.tar.bz2
 URL:              http://cairographics.org/snapshots/
+BuildRoot:        %{_tmppath}/%{name}-%{version}-root
 BuildRequires:    libsvg-devel
 BuildRequires:    cairo-devel
 BuildRequires:    jpeg-devel
