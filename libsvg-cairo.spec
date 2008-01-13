@@ -1,6 +1,6 @@
 
 %define major   1
-%define release %mkrel 4
+%define release %mkrel 5
 %define lib_name %mklibname svg-cairo %major
 
 Name:             libsvg-cairo
