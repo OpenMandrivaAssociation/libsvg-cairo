@@ -1,12 +1,11 @@
 
 %define major   1
-%define release %mkrel 5
 %define lib_name %mklibname svg-cairo %major
 
 Name:             libsvg-cairo
 Summary:          A SVG library based on cairo
 Version: 0.1.6
-Release: %release
+Release: %mkrel 6
 License:          BSD
 Group:            System/Libraries
 Source:           %{name}-%{version}.tar.bz2
