@@ -5,7 +5,7 @@
 Name:             libsvg-cairo
 Summary:          A SVG library based on cairo
 Version: 0.1.6
-Release: %mkrel 10
+Release: %mkrel 11
 License:          BSD
 Group:            System/Libraries
 Source:           %{name}-%{version}.tar.bz2
