@@ -70,7 +70,6 @@ rm -rf %{buildroot}
 %files -n %{lib_name}-devel
 %defattr(-, root, root)
 %{_libdir}/*.so
-%{_libdir}/*.la
 %{_libdir}/*.a
 %{_includedir}/*
 %{_libdir}/pkgconfig/libsvg-cairo.pc
