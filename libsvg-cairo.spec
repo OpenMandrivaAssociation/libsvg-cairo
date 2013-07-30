@@ -5,7 +5,7 @@
 Name:		libsvg-cairo
 Summary:	A SVG library based on cairo
 Version:	0.1.6
-Release:	15
+Release:	16
 License:	BSD
 Group:		System/Libraries
 Url:		http://cairographics.org/snapshots/
