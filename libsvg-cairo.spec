@@ -2,6 +2,8 @@
 %define libname %mklibname svg-cairo %{major}
 %define devname %mklibname svg-cairo -d
 
+%define _disable_lto 1
+
 Name:		libsvg-cairo
 Summary:	A SVG library based on cairo
 Version:	0.1.6
@@ -9,7 +11,7 @@ Release:	25
 License:	BSD
 Group:		System/Libraries
 Url:		http://cairographics.org/snapshots/
-Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
+Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
 BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(libsvg)
