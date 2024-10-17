@@ -10,7 +10,7 @@ Version:	0.1.6
 Release:	27
 License:	BSD
 Group:		System/Libraries
-Url:		http://cairographics.org/snapshots/
+Url:		https://cairographics.org/snapshots/
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
 BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(cairo)
