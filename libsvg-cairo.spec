@@ -12,6 +12,11 @@ License:	BSD
 Group:		System/Libraries
 Url:		https://cairographics.org/snapshots/
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(libsvg)
